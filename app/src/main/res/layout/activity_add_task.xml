@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7CA5C"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/taskTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_title"
+        android:hint="Título da Tarefa"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/taskDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/edit_text_background"
+        android:drawableStart="@drawable/ic_title"
+        android:hint="Descrição da Tarefa"
+        android:imeOptions="actionDone"
+        android:inputType="textCapSentences"
+        android:padding="12dp"
+        android:textColor="#000000"
+        android:textColorHint="@color/black"
+        android:textSize="16sp" />
+
+    <!-- Adicionando ImageView para exibir a imagem tirada -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/white"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btnSaveTask02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/button_background"
+        android:padding="14dp"
+        android:text="Salvar Tarefa"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+</LinearLayout>

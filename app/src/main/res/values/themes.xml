@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Tema base da aplicação -->
+    <style name="Theme.ROTINA_GEM" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Personalize seu tema aqui -->
+        <item name="colorPrimary">#E7D642</item>
+        <item name="colorPrimaryDark">#EDD57E</item>
+        <item name="colorAccent">#D8DCDC</item>
+    </style>
+</resources>
